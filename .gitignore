@@ -21,6 +21,24 @@ expo-env.d.ts
 # Metro
 .metro-health-check*
 
+
+node_modules/
+.expo/
+dist/
+web-build/
+npm-debug.log*
+.env
+.env.*
+!.env.example
+.DS_Store
+
+# Banco de dados local
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+
 # debug
 npm-debug.*
 yarn-debug.*
